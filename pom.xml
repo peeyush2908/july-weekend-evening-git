@@ -6,5 +6,12 @@
   <name>july weekend batch</name>
   <description>git demo project</description>
 <packaging>jar</packaging>
+  <distributionManagement>
+    <repository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/peeyush2908/july-weekend-evening-git</url>
+    </repository>
+</distributionManagement>
   
 </project>
